@@ -23,7 +23,7 @@ export default{
         console.log('child updated()')
     },
     beforeDestroy(){
-        console.log('child before()')
+        console.log('child beforeDestroy()')
     },
     destroyed(){
         console.log('child destroyed()')
