@@ -1,24 +1,15 @@
-# vue-test
+# life-cyle Hooks
 
-## Project setup
+## life-cycle methods
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+1)created --> beforeCreate(), created()
+2)mounted --> beforeMount(), mounted()
+3)updated --> beforeUpdate(),updated()
+4)deleted --> beforeDeleted(),deleted()
 ```
 
-### Compiles and minifies for production
+## each method goes two steps
 ```
-npm run build
+1)each method i explained in detailed manner in the parent and child components
+2)it's very important to understand the life cycle of a vue-components
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
